@@ -1,0 +1,36 @@
+.game{ 
+    width: 400px; /* Adjust width as desired */
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: 0 auto; /* Center the game horizontally */
+    font-weight: 500;
+    margin-top: 100px; /* Adjust margin-top to center vertically */
+
+} 
+.title{ 
+    background-color: palevioletred; 
+    padding: 5px 0; 
+    margin: 5px 0; 
+   height: 40px; 
+   line-height: 35px; 
+   font-size: 30px;
+} 
+span{ 
+    color: yellow;
+} 
+.square{
+    width: 123px; /* Adjust square size */
+    height: 123px; /* Adjust square size */
+    background: palevioletred;
+    float: left;
+    margin: 5px; /* Adjust margin for better appearance */
+    font-size: 60px; /* Adjust font size */
+    line-height: 100px; /* Center text vertically */
+} 
+.square:hover{ 
+    background-color: pink;  
+    cursor: pointer; 
+    
+
+} 
